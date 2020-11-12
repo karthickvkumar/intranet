@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+.show{
+    display: block !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hidden{
+    display: none !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: -10%;
+}
+.align-label{
+    margin-left: -10%;
+    font-size: 12px;
+    font-weight: 500;
+}
+.align-input{
+    width: 20%;
+    height: 26px;
+    font-size: 13px;
+    margin-left: 6%;
+}
+.align-btn{
+    width: 14%;   
+}
+.login-btn{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 13px;
+    border: 1px solid #cbcbcb;
+}
+.forget-password-btn{
+    margin-left: 15%;
+    color: blue;
+    text-decoration: underline !important;
+    font-size: 13px;
+}
+.nav-a-link{
+    color: white !important;
+    cursor: pointer;
+}
+.nav-a-link-active{ 
+    background: #0d8aee !important;
+}
+.nav-a-link-active:hover{ 
+    background: #0d8aee !important;
+}
+.inputBox{
+    width: 200px;
+    height: 24px;
+}
+.btn-default{
+    font-size: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.space-l-10{
+    margin-left: 10px;
+}
+.space-t-10{
+    margin-top: 10px;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 25px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: Navy;
+    color: white;
   }
-}
+  .align-table{
+    margin-top: 15px;
+    max-height: 55vh;
+    overflow: auto;
+  }
